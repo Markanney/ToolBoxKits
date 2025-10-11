@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CustomViewController.swift
 //  toolBox
 //
 //  Created by kanney on 10/11/2025.
@@ -7,11 +7,17 @@
 //
 
 import UIKit
+import toolBox
 
-class ViewController: UIViewController {
+class CustomViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        Task {
+            await initData()
+        }
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -20,5 +26,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func initData() async{
+        
+        let ss = URL(string: "")!
+        
+        await ss.getImage()
+    }
+    
 }
 

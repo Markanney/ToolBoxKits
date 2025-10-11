@@ -1,0 +1,25 @@
+{
+  "name": "toolBox",
+  "version": "0.0.1",
+  "summary": "A short description of toolBox.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kanney/toolBox",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kanney": "wangk@che300.com"
+  },
+  "source": {
+    "git": "https://github.com/kanney/toolBox.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "toolBox/Classes/**/*",
+  "dependencies": {
+    "KingfisherWebP": []
+  }
+}
