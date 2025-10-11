@@ -1,6 +1,0 @@
-framework module toolBox {
-  umbrella header "toolBox-umbrella.h"
-
-  export *
-  module * { export * }
-}

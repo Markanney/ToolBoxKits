@@ -15,17 +15,17 @@ Pod::Spec.new do |s|
   including UIKit helpers, string processing, async utilities, and layout helpers.
   DESC
 
-  s.homepage         = 'https://github.com/Markanney/toolBox'
+  s.homepage         = 'https://github.com/Markanney/toolBoxKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kanney' => 'mail@workpassion.top' }
-  s.source           = { :git => 'https://github.com/Markanney/toolBox.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Markanney/toolBoxKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'toolBox/Classes/**/*'
+  s.source_files = 'toolBoxKit/Classes/**/*'
   
   #   s.resource_bundles = {
   #     'toolBox' => ['toolBox/Assets/*']

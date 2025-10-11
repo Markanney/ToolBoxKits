@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import toolBox
+import toolBoxKit
 
 class CustomViewController: UIViewController {
 

@@ -5,8 +5,8 @@ use_frameworks!
 platform :ios, '13.0'
 install! 'cocoapods', preserve_pod_file_structure: true
 
-target 'toolBox_Example' do
-  pod 'toolBox', :path => '../'
+target 'toolBoxKit_Example' do
+  pod 'toolBoxKit', :path => '../'
 
 end
 

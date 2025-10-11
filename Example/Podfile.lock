@@ -1,5 +1,5 @@
 PODS:
-  - Kingfisher (8.3.3)
+  - Kingfisher (8.6.0)
   - KingfisherWebP (1.7.0):
     - Kingfisher (~> 8.0)
     - libwebp (>= 1.1.0)
@@ -15,11 +15,11 @@ PODS:
   - libwebp/sharpyuv (1.5.0)
   - libwebp/webp (1.5.0):
     - libwebp/sharpyuv
-  - toolBox (0.0.4):
+  - toolBoxKit (0.0.1):
     - KingfisherWebP
 
 DEPENDENCIES:
-  - toolBox (from `../`)
+  - toolBoxKit (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -28,15 +28,15 @@ SPEC REPOS:
     - libwebp
 
 EXTERNAL SOURCES:
-  toolBox:
+  toolBoxKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Kingfisher: ff82cb91d9266ddb56cbb2f72d32c26f00d3e5be
+  Kingfisher: 64278f126a815d0e2d391cdf71311b85882c4de0
   KingfisherWebP: 42d393b312344f6f7a43f7cef6088b9c20249b64
   libwebp: 02b23773aedb6ff1fd38cec7a77b81414c6842a8
-  toolBox: 68f64eccfc0b26b94072044cd02cd32977700851
+  toolBoxKit: 50a3d82572e0c9bb12b332aef889153edc2ff796
 
-PODFILE CHECKSUM: fc98db1e6c46ff46cb18119ebb0a6a333bf300cf
+PODFILE CHECKSUM: ff106e71cc1565cbdb64487f2db73476b962d822
 
 COCOAPODS: 1.16.2

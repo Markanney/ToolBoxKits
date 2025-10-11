@@ -1,0 +1,6 @@
+framework module toolBoxKit {
+  umbrella header "toolBoxKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
