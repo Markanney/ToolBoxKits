@@ -20,7 +20,7 @@
 要运行示例 Demo，请执行以下命令：
 
 ```bash
-git clone https://github.com/kanney/toolBox.git
+git clone https://github.com/Markanney/toolBox.git
 cd Example
 pod install
 open toolBox.xcworkspace
@@ -79,6 +79,40 @@ class ViewController: UIViewController {
         }
     }
 }
+
+```
+
+✅ 字符串新增扩展示例
+
+```swift
+let text = "a b c".removeSpace()
+// 输出 "abc"
+
+let a: String? = nil
+print(a.isNotNilAndEmpty()) // false
+
+let b: String? = ""
+print(b.isNotNilAndEmpty()) // false
+
+let c: String? = "hello"
+print(c.isNotNilAndEmpty()) // true
+
+let name: String? = nil
+print(name.emptyDefaultValue("暂无")) 
+// 输出 "暂无"
+
+let desc: String? = "Hello"
+print(desc.emptyDefaultValue("暂无"))
+    // 输出 "Hello"
+```
+
+✅ 常用 UI 尺寸常量
+
+```swift
+let statusHeight = appStatusBarHeight
+let tabHeight = appTabBarHeight
+let widthRatio = appWidthRatio
+...
 
 ```
 

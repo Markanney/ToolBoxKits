@@ -6,7 +6,7 @@
 //
 import Kingfisher
 
-extension URL {
+public extension URL {
     
     /// 异步获取对应 URL 的图片（使用 Kingfisher）
     ///
@@ -19,7 +19,7 @@ extension URL {
     /// ```
     ///
     /// - Returns: 下载成功返回 `UIImage`，失败返回 `nil`。
-    public func getImage() async -> UIImage? {
+    func getImage() async -> UIImage? {
         return await withCheckedContinuation { seal in
             
             KingfisherManager.shared.retrieveImage(with: self) { result in

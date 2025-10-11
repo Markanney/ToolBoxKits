@@ -31,6 +31,8 @@ class CustomViewController: UIViewController {
         let ss = URL(string: "")!
         
         await ss.getImage()
+        
+        
     }
     
 }
