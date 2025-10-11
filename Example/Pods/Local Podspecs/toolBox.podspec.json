@@ -1,7 +1,7 @@
 {
   "name": "toolBox",
-  "version": "0.0.3",
-  "summary": "A short description of toolBox.",
+  "version": "0.0.4",
+  "summary": "A lightweight Swift toolbox providing common extensions and utilities for iOS development.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Markanney/toolBox",
   "license": {
@@ -13,18 +13,15 @@
   },
   "source": {
     "git": "https://github.com/Markanney/toolBox.git",
-    "tag": "0.0.3"
+    "tag": "0.0.4"
   },
   "platforms": {
     "ios": "13.0"
   },
+  "swift_versions": "5.0",
   "source_files": "toolBox/Classes/**/*",
-  "resource_bundles": {
-    "toolBox": [
-      "toolBox/Assets/*"
-    ]
-  },
   "dependencies": {
     "KingfisherWebP": []
-  }
+  },
+  "swift_version": "5.0"
 }

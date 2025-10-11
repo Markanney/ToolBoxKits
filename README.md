@@ -33,7 +33,7 @@ open toolBox.xcworkspace
 |环境|最低要求|
 |---|---|
 |iOS|13.0+|
-|Swift|5.8+|
+|Swift|5.0+|
 
 ---
 
