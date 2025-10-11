@@ -35,7 +35,7 @@ SPEC CHECKSUMS:
   Kingfisher: ff82cb91d9266ddb56cbb2f72d32c26f00d3e5be
   KingfisherWebP: 42d393b312344f6f7a43f7cef6088b9c20249b64
   libwebp: 02b23773aedb6ff1fd38cec7a77b81414c6842a8
-  toolBox: 20ee1f53a87b29b8a9ea1b2a39a11c56a551bc6b
+  toolBox: ec4ddb9513890d60d8cd0d4bfdbfd539a3e3e205
 
 PODFILE CHECKSUM: fc98db1e6c46ff46cb18119ebb0a6a333bf300cf
 
