@@ -1,6 +1,6 @@
 {
   "name": "toolBox",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "summary": "A short description of toolBox.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Markanney/toolBox",
@@ -13,12 +13,17 @@
   },
   "source": {
     "git": "https://github.com/Markanney/toolBox.git",
-    "tag": "0.0.1"
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "13.0"
   },
   "source_files": "toolBox/Classes/**/*",
+  "resource_bundles": {
+    "toolBox": [
+      "toolBox/Assets/*"
+    ]
+  },
   "dependencies": {
     "KingfisherWebP": []
   }

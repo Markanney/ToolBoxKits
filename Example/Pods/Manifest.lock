@@ -15,7 +15,7 @@ PODS:
   - libwebp/sharpyuv (1.5.0)
   - libwebp/webp (1.5.0):
     - libwebp/sharpyuv
-  - toolBox (0.0.1):
+  - toolBox (0.0.3):
     - KingfisherWebP
 
 DEPENDENCIES:
@@ -35,7 +35,7 @@ SPEC CHECKSUMS:
   Kingfisher: ff82cb91d9266ddb56cbb2f72d32c26f00d3e5be
   KingfisherWebP: 42d393b312344f6f7a43f7cef6088b9c20249b64
   libwebp: 02b23773aedb6ff1fd38cec7a77b81414c6842a8
-  toolBox: ec4ddb9513890d60d8cd0d4bfdbfd539a3e3e205
+  toolBox: 7e91a01e2c03367bbb0791389686619fce2d1f4c
 
 PODFILE CHECKSUM: fc98db1e6c46ff46cb18119ebb0a6a333bf300cf
 
