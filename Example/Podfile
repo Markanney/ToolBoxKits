@@ -7,6 +7,9 @@ install! 'cocoapods', preserve_pod_file_structure: true
 
 target 'toolBoxKit_Example' do
   pod 'toolBoxKit', :path => '../'
+  
+  pod 'LookinServer', :subspecs => ['Swift'],  :configurations => ['Debug']
+
 
 end
 

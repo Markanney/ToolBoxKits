@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'toolBoxKit'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary = "A lightweight Swift toolbox for common extensions and utilities in iOS development."
   s.description = <<-DESC
   toolBox provides a collection of Swift extensions and helper utilities to simplify iOS development,

@@ -17,7 +17,7 @@
 ///
 /// - Parameter hexColor: 十六进制颜色值（例如 `0xFFFFFF`）
 /// - Returns: 对应的 `UIColor` 对象
-func UIColorFromHex(_ hexColor: UInt64) -> UIColor {
+public func UIColorFromHex(_ hexColor: UInt64) -> UIColor {
     UIColor(red: CGFloat((hexColor & 0xFF0000) >> 16) / 255.0, green: CGFloat((hexColor & 0xFF00) >> 8) / 255.0, blue: CGFloat(hexColor & 0xFF) / 255.0, alpha: 1.0)
 }
 
@@ -33,7 +33,7 @@ func UIColorFromHex(_ hexColor: UInt64) -> UIColor {
 ///
 /// - Parameter len: 随机字符串的长度
 /// - Returns: 指定长度的随机字符串
-public func randomStr(len: Int) -> String {
+public func randomStr(len: Int = 24) -> String {
     
     var ranStr = ""
     for _ in 0..<len {

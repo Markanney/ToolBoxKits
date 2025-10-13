@@ -116,6 +116,20 @@ let widthRatio = appWidthRatio
 
 ```
 
+✅ 防抖工具
+
+```swift
+let vi  = UIViewController()
+vi.view.backgroundColor = .white
+
+DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+/// 自动防抖后清除
+   Debouncer.shared.debounce {
+      self.navigationController?.pushViewController(vi, animated: false)
+   }
+}
+```
+
 ---
 
 ## 📜 License

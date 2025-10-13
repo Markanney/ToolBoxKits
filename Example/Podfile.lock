@@ -15,10 +15,14 @@ PODS:
   - libwebp/sharpyuv (1.5.0)
   - libwebp/webp (1.5.0):
     - libwebp/sharpyuv
-  - toolBoxKit (0.0.1):
+  - LookinServer/Core (1.2.8)
+  - LookinServer/Swift (1.2.8):
+    - LookinServer/Core
+  - toolBoxKit (0.0.2):
     - KingfisherWebP
 
 DEPENDENCIES:
+  - LookinServer/Swift
   - toolBoxKit (from `../`)
 
 SPEC REPOS:
@@ -26,6 +30,7 @@ SPEC REPOS:
     - Kingfisher
     - KingfisherWebP
     - libwebp
+    - LookinServer
 
 EXTERNAL SOURCES:
   toolBoxKit:
@@ -35,8 +40,9 @@ SPEC CHECKSUMS:
   Kingfisher: 64278f126a815d0e2d391cdf71311b85882c4de0
   KingfisherWebP: 42d393b312344f6f7a43f7cef6088b9c20249b64
   libwebp: 02b23773aedb6ff1fd38cec7a77b81414c6842a8
-  toolBoxKit: 50a3d82572e0c9bb12b332aef889153edc2ff796
+  LookinServer: 1b2b61c6402ae29fa22182d48f5cd067b4e99e80
+  toolBoxKit: f6deb117ebb4c7882f9f14bfd7bc64e492e91a23
 
-PODFILE CHECKSUM: ff106e71cc1565cbdb64487f2db73476b962d822
+PODFILE CHECKSUM: ad5b9d4a29872952417edd03b3da207e717d863a
 
 COCOAPODS: 1.16.2
