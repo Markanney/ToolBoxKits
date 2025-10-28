@@ -155,6 +155,44 @@ showAutoToast("操作完成") {
 toastHidNow()
 
 ```
+
+✅ 增强调试日志
+
+```swift
+
+// 基本日志输出
+debugLog("用户登录成功")
+
+// 输出对象信息
+let user = User(name: "John", age: 25)
+debugLog(user)
+
+// 输出网络请求信息
+debugLog("API响应: \(response)")
+
+// 输出错误信息
+debugLog("错误详情: \(error.localizedDescription)")
+
+// 在方法中自动记录调用位置
+func fetchData() {
+    debugLog("开始获取数据")
+    // 业务逻辑...
+    debugLog("数据获取完成")
+}
+
+输出示例：
+
+📍 ViewController.swift[25] | 🎯 viewDidLoad: 
+📝 用户登录成功
+
+📍 UserService.swift[42] | 🎯 fetchUserInfo: 
+📝 User(name: "John", age: 25)
+
+📍 NetworkManager.swift[18] | 🎯 requestData: 
+📝 API响应: { "status": "success" }
+
+```
+
 ---
 
 ## 📜 License

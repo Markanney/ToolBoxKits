@@ -409,6 +409,7 @@
 		C7887CBFC922C87310560352BC844F6E /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EB8BD5C24E1F9691950E78A5D63BA7 /* ImageTransition.swift */; };
 		C7D98EC7A75D81E28E2AF8A80B660882 /* errorIconSubtle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA9EF5CC580F87B5CDEB6E13F1977F0 /* errorIconSubtle@2x.png */; };
 		C80E973E2EB0BD4C00F7FD4F /* ToastUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80E973D2EB0BD4300F7FD4F /* ToastUtil.swift */; };
+		C80E97402EB0C02B00F7FD4F /* LogUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80E973F2EB0C02800F7FD4F /* LogUtil.swift */; };
 		C860F9F3F715AF3F589D5B1C387FB0AF /* quant_levels_dec_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = C636CE7F2E74C8CCFE46413C830E0B95 /* quant_levels_dec_utils.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
 		C86F6F1B1F943319720E8CE65C094B87 /* LookinAttrIdentifiers.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D450A537EDCA9FFB884ADE1C643A83 /* LookinAttrIdentifiers.m */; };
 		C95E6997A6449B0EB30E667B8822DF07 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = CDC106248155405A518E02695DCE25A6 /* utils.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
@@ -1042,6 +1043,7 @@
 		C7B1353827BD586F192BFF6DE5649045 /* UIImageView+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LookinServer.h"; sourceTree = "<group>"; };
 		C7D477B390B8AE6DCC0EB08A01C43090 /* cpu.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = cpu.c; sourceTree = "<group>"; };
 		C80E973D2EB0BD4300F7FD4F /* ToastUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastUtil.swift; sourceTree = "<group>"; };
+		C80E973F2EB0C02800F7FD4F /* LogUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogUtil.swift; sourceTree = "<group>"; };
 		C81D71B6980CBDACB23891A0689C5620 /* LookinAttributesGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LookinAttributesGroup.h; sourceTree = "<group>"; };
 		C8DD130144D1B9105FEAAC240C568F7C /* SessionDataTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SessionDataTask.swift; sourceTree = "<group>"; };
 		CC35255DB36A0C88ADABC12975C2996F /* vp8li_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = vp8li_dec.h; sourceTree = "<group>"; };
@@ -1906,6 +1908,7 @@
 		B87B18482447294860566E4E74239924 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				C80E973F2EB0C02800F7FD4F /* LogUtil.swift */,
 				C80E973D2EB0BD4300F7FD4F /* ToastUtil.swift */,
 				BF48415E719FA985A720E151A2E29F88 /* DebouncerUtil.swift */,
 			);
@@ -2192,10 +2195,10 @@
 				90CE55602697AD31A2358D72881D933E /* Config */,
 				413D965EFE8C7DBE59E4C8A08C4D22A0 /* Extension */,
 				24501EF6CB79FF43A26BA71FF1952024 /* Function */,
+				B87B18482447294860566E4E74239924 /* Utils */,
+				3CECD70C9AFAD4B6CAEF0CF385B9FE04 /* UICustomer */,
 				B8E9B6E8B75203AB608CBCA462406C36 /* Pod */,
 				F3A087523D281AA4E0B840CEA1980BC1 /* Support Files */,
-				3CECD70C9AFAD4B6CAEF0CF385B9FE04 /* UICustomer */,
-				B87B18482447294860566E4E74239924 /* Utils */,
 			);
 			name = toolBoxKit;
 			path = ../..;
@@ -2998,6 +3001,7 @@
 				04AF2A2735C90CCBA7023091E28C43F4 /* DebouncerUtil.swift in Sources */,
 				0254703C9AC548FA2F09ADF8F5D33DA6 /* DefaultConfig.swift in Sources */,
 				092C9409E2C22C481225B8A7257B1090 /* String+Extension.swift in Sources */,
+				C80E97402EB0C02B00F7FD4F /* LogUtil.swift in Sources */,
 				8B20E9DE35D383B2DB0381FCD3715754 /* toolBoxKit-dummy.m in Sources */,
 				A31E45E4068505754F3877F706F7AAFB /* UICButton.swift in Sources */,
 				C80E973E2EB0BD4C00F7FD4F /* ToastUtil.swift in Sources */,
