@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_toolBoxKit : NSObject
+@interface PodsDummy_ToolBoxKit : NSObject
 @end
-@implementation PodsDummy_toolBoxKit
+@implementation PodsDummy_ToolBoxKit
 @end

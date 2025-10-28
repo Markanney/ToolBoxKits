@@ -1,6 +1,6 @@
 PODS:
-  - Kingfisher (8.6.0)
-  - KingfisherWebP (1.7.0):
+  - Kingfisher (8.6.1)
+  - KingfisherWebP (1.7.2):
     - Kingfisher (~> 8.0)
     - libwebp (>= 1.1.0)
   - libwebp (1.5.0):
@@ -21,13 +21,13 @@ PODS:
   - SwiftMessages (10.0.2):
     - SwiftMessages/App (= 10.0.2)
   - SwiftMessages/App (10.0.2)
-  - toolBoxKit (0.0.3):
+  - ToolBoxKit (0.0.4):
     - KingfisherWebP
     - SwiftMessages
 
 DEPENDENCIES:
   - LookinServer/Swift
-  - toolBoxKit (from `../`)
+  - ToolBoxKit (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -38,17 +38,17 @@ SPEC REPOS:
     - SwiftMessages
 
 EXTERNAL SOURCES:
-  toolBoxKit:
+  ToolBoxKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Kingfisher: 64278f126a815d0e2d391cdf71311b85882c4de0
-  KingfisherWebP: 42d393b312344f6f7a43f7cef6088b9c20249b64
+  Kingfisher: 7ac7a7288653787a54206b11a3c74f49ab650f1f
+  KingfisherWebP: 38b9721821947f547afb78f933f75f4f9e0ae402
   libwebp: 02b23773aedb6ff1fd38cec7a77b81414c6842a8
   LookinServer: 1b2b61c6402ae29fa22182d48f5cd067b4e99e80
   SwiftMessages: bfefe945bc05ce7cd328303d53d0d1849e29109d
-  toolBoxKit: c1b78ef85f54a0baa8446fe249b1fa2aa36d783f
+  ToolBoxKit: 46f93a1ed36b74de169b6e7cc8e0c7f3852a8412
 
-PODFILE CHECKSUM: ad5b9d4a29872952417edd03b3da207e717d863a
+PODFILE CHECKSUM: 3a38d4c4461ae44531fec3206e45a6e291f5167c
 
 COCOAPODS: 1.16.2

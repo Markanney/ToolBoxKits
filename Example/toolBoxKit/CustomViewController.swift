@@ -1,13 +1,13 @@
 //
 //  CustomViewController.swift
-//  toolBoxKit
+//  ToolBoxKit
 //
 //  Created by 44431670 on 10/13/2025.
 //  Copyright (c) 2025 44431670. All rights reserved.
 //
 
 import UIKit
-import toolBoxKit
+import ToolBoxKit
 
 class CustomViewController: UIViewController {
     

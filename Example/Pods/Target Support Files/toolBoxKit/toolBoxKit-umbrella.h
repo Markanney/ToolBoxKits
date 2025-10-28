@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double toolBoxKitVersionNumber;
-FOUNDATION_EXPORT const unsigned char toolBoxKitVersionString[];
+FOUNDATION_EXPORT double ToolBoxKitVersionNumber;
+FOUNDATION_EXPORT const unsigned char ToolBoxKitVersionString[];
 
