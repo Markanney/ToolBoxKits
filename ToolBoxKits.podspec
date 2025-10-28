@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint ToolBoxKit.podspec' to ensure this is a
+# Be sure to run `pod lib lint ToolBoxKits.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ToolBoxKit'
+  s.name             = 'ToolBoxKits'
   s.version          = '0.0.4'
   s.summary = "A lightweight Swift toolbox for common extensions and utilities in iOS development."
   s.description = <<-DESC
@@ -15,17 +15,17 @@ Pod::Spec.new do |s|
   including UIKit helpers, string processing, async utilities, and layout helpers.
   DESC
 
-  s.homepage         = 'https://github.com/Markanney/ToolBoxKit'
+  s.homepage         = 'https://github.com/Markanney/ToolBoxKits'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kanney' => 'mail@workpassion.top' }
-  s.source           = { :git => 'https://github.com/Markanney/ToolBoxKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Markanney/ToolBoxKits.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'ToolBoxKit/Classes/**/*'
+  s.source_files = 'ToolBoxKits/Classes/**/*'
   
   #   s.resource_bundles = {
   #     'toolBox' => ['toolBox/Assets/*']

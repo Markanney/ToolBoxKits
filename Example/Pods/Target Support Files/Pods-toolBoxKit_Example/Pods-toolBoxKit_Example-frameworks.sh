@@ -180,14 +180,12 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/KingfisherWebP/KingfisherWebP.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LookinServer/LookinServer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/ToolBoxKit/ToolBoxKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/KingfisherWebP/KingfisherWebP.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/ToolBoxKit/ToolBoxKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

@@ -215,7 +215,6 @@
 				"${BUILT_PRODUCTS_DIR}/KingfisherWebP/KingfisherWebP.framework",
 				"${BUILT_PRODUCTS_DIR}/LookinServer/LookinServer.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
-				"${BUILT_PRODUCTS_DIR}/ToolBoxKit/ToolBoxKit.framework",
 				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -224,7 +223,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KingfisherWebP.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LookinServer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ToolBoxKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
