@@ -329,7 +329,7 @@
 		BEFE2BF560EBC861A07CDB09B334725A /* picture_tools_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F0EA5FF0782FDFAC63DB38BBBDBA1B2 /* picture_tools_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
 		C0059214ED419C8346C7E172090D08BB /* cost_mips32.c in Sources */ = {isa = PBXBuildFile; fileRef = B3F94CE18574D32037A63D4702ACC6F0 /* cost_mips32.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
 		C06A26558BE5EBEDB38E441D6AF3A105 /* KFImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8992A44A87DA1678B94B52838E8F29AD /* KFImage.swift */; };
-		C1AE65DB9ED4B31850EA9669DF2B3856 /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E0FFB93167A646C2EC3D37FE7084A3 /* Debouncer.swift */; };
+		C1AE65DB9ED4B31850EA9669DF2B3856 /* DebouncerUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E0FFB93167A646C2EC3D37FE7084A3 /* DebouncerUtil.swift */; };
 		C208998EB7422324DFD789D6BE75E679 /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54DC36C027DCE5005CAE9B42C71E97B /* CacheSerializer.swift */; };
 		C705B2F652EF8F07B5552D84D13B54B4 /* huffman_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F3BA8DA2FCB713EA9FFCBCA561E7AAA /* huffman_utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C7789E2D1E03791DBBF42F87DF5F5F5B /* msa_macro.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E8195391A431A12111E05F2566A5A31 /* msa_macro.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -369,7 +369,7 @@
 		DB3C0AA310B3E57DBD20E665C1C5CEAC /* LookinAttrIdentifiers.h in Headers */ = {isa = PBXBuildFile; fileRef = 5567870B3173C08683664536FE213675 /* LookinAttrIdentifiers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCC28DDF7F14A969382C975D4BE30EBE /* cpu.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B58F49E685CFA67058FD1E1BC2B5B21 /* cpu.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
 		DD7F16EA4186C70B8116456730C4FD87 /* LKSConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B914F07B2C7109D105CB3D9EE9F263A /* LKSConfigManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE01BE093A38EF61E92444040D9C0518 /* CommonConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76E7D7B9D679E34AB8CD8B526B3BAE3 /* CommonConfig.swift */; };
+		DE01BE093A38EF61E92444040D9C0518 /* DefaultConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76E7D7B9D679E34AB8CD8B526B3BAE3 /* DefaultConfig.swift */; };
 		DE2178828D1F1E01EEB73AC40DCC19E1 /* UILabel+LookinServer.h in Headers */ = {isa = PBXBuildFile; fileRef = A468E7F294B373B5C1C9611B9ADD97FF /* UILabel+LookinServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF8291A688D0AC2E5BE37EE32D2A64F1 /* backward_references_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9B912943EBDCE484D5820E1CFA6094 /* backward_references_enc.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DFA21E9AD02D98561B0BBDBAA685365F /* Kingfisher.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C298ABB78D9B05529B89D8322DB2E7B0 /* Kingfisher.bundle */; };
@@ -412,7 +412,7 @@
 		F8E44D15CC7B9F10E8863D47A9436E4C /* alphai_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C050C0CB8FE8B63D3F8FDB57B74D881 /* alphai_dec.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F8ECC44CB605AAE89B21AA5CCE2D4173 /* syntax_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = 3110339CDC0B444F110E6220CFBC3EBB /* syntax_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
 		F9683ECCAB98097EAA40E260C7036B11 /* Lookin_PTChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = A327DBE3DA7248FCD7FA8D4273F38A02 /* Lookin_PTChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA088E9F11B69DAA19392ED7339BDAE5 /* CommonAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB89A266CB52DE72FD2893D722CE31E7 /* CommonAppConfig.swift */; };
+		FA088E9F11B69DAA19392ED7339BDAE5 /* AppInfoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB89A266CB52DE72FD2893D722CE31E7 /* AppInfoConfig.swift */; };
 		FA5A68FB4954390918154112730C5AE0 /* vp8li_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 6558EC50B92E43355C314F3C383F0C77 /* vp8li_dec.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FA78239DC80C6C0E7CD760A6CDDCF9C0 /* NSSet+Lookin.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D092A79B6ADB9D366234AE0864AF1C /* NSSet+Lookin.m */; };
 		FBA5BFF88E313EE49AC79B3279B74367 /* LookinCustomDisplayItemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E1CFFEAC62ED6F113797ABF59BDB39 /* LookinCustomDisplayItemInfo.m */; };
@@ -619,7 +619,7 @@
 		43EA6E4059783B068C8D06ADF633F118 /* vp8i_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = vp8i_enc.h; sourceTree = "<group>"; };
 		44E1CFFEAC62ED6F113797ABF59BDB39 /* LookinCustomDisplayItemInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LookinCustomDisplayItemInfo.m; sourceTree = "<group>"; };
 		44FE9D60128DE9D01A5F4AD0AC86FF84 /* LookinServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LookinServer.release.xcconfig; sourceTree = "<group>"; };
-		45E0FFB93167A646C2EC3D37FE7084A3 /* Debouncer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Debouncer.swift; sourceTree = "<group>"; };
+		45E0FFB93167A646C2EC3D37FE7084A3 /* DebouncerUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DebouncerUtil.swift; sourceTree = "<group>"; };
 		4661938E7C370FE13ED3DB200BE0AD1B /* alpha_processing.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = alpha_processing.c; sourceTree = "<group>"; };
 		46D2AAFEF0328A30420BD67C7AE64933 /* LKS_MultiplatformAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LKS_MultiplatformAdapter.h; sourceTree = "<group>"; };
 		4737CD900E4E0D9B1AFD3F071EF625D4 /* KFImageOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KFImageOptions.swift; sourceTree = "<group>"; };
@@ -872,7 +872,7 @@
 		CA53C2C80B631F5934E8B9E4E0FFC911 /* Documentation.docc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.documentationcatalog; name = Documentation.docc; path = Sources/Documentation.docc; sourceTree = "<group>"; };
 		CAA980384199AA679B7DFFBC338D12A9 /* LKS_HierarchyDisplayItemsMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LKS_HierarchyDisplayItemsMaker.h; sourceTree = "<group>"; };
 		CABD3807BD723EB7D3D124103ACA203A /* LKS_AttrModificationPatchHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LKS_AttrModificationPatchHandler.h; sourceTree = "<group>"; };
-		CB89A266CB52DE72FD2893D722CE31E7 /* CommonAppConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CommonAppConfig.swift; sourceTree = "<group>"; };
+		CB89A266CB52DE72FD2893D722CE31E7 /* AppInfoConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppInfoConfig.swift; sourceTree = "<group>"; };
 		CBA2685E0D6E1DC1826A9EFA0997C6B6 /* tree_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = tree_enc.c; sourceTree = "<group>"; };
 		CC30E431CD89CEDA40C550338E83B4C9 /* UITextField+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LookinServer.m"; sourceTree = "<group>"; };
 		CC7F7D41483E5DEB4C0EF11A52D1EEE2 /* Lookin_PTUSBHub.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Lookin_PTUSBHub.m; sourceTree = "<group>"; };
@@ -908,7 +908,7 @@
 		E48F06B696CB5ABAD087407375BC23A1 /* UIView+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LookinServer.m"; sourceTree = "<group>"; };
 		E4DBEA66A273538995F5EB592FDC286A /* rescaler_mips32.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = rescaler_mips32.c; sourceTree = "<group>"; };
 		E5DC85E9BD2A35161732A78E87B3E7D1 /* config_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = config_enc.c; sourceTree = "<group>"; };
-		E76E7D7B9D679E34AB8CD8B526B3BAE3 /* CommonConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CommonConfig.swift; sourceTree = "<group>"; };
+		E76E7D7B9D679E34AB8CD8B526B3BAE3 /* DefaultConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultConfig.swift; sourceTree = "<group>"; };
 		E7A034A30E1DC57B5A9BBC46C2EF75B5 /* PHPickerResultImageDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PHPickerResultImageDataProvider.swift; sourceTree = "<group>"; };
 		E7C04057DE45382342AA51580324DC35 /* webp_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = webp_enc.c; sourceTree = "<group>"; };
 		E848ADA88D3F37EC8259B86DDDA2AA8A /* random_utils.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = random_utils.c; sourceTree = "<group>"; };
@@ -1565,8 +1565,8 @@
 		9E74CF4BEC80E2B9F3BA28CF38E1B7ED /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				CB89A266CB52DE72FD2893D722CE31E7 /* CommonAppConfig.swift */,
-				E76E7D7B9D679E34AB8CD8B526B3BAE3 /* CommonConfig.swift */,
+				CB89A266CB52DE72FD2893D722CE31E7 /* AppInfoConfig.swift */,
+				E76E7D7B9D679E34AB8CD8B526B3BAE3 /* DefaultConfig.swift */,
 			);
 			name = Config;
 			path = toolBoxKit/Classes/Config;
@@ -1914,7 +1914,7 @@
 		F47D1A777EB1BE2BE41B4BD1C9958B02 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				45E0FFB93167A646C2EC3D37FE7084A3 /* Debouncer.swift */,
+				45E0FFB93167A646C2EC3D37FE7084A3 /* DebouncerUtil.swift */,
 			);
 			name = Utils;
 			path = toolBoxKit/Classes/Utils;
@@ -2392,11 +2392,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA088E9F11B69DAA19392ED7339BDAE5 /* CommonAppConfig.swift in Sources */,
-				DE01BE093A38EF61E92444040D9C0518 /* CommonConfig.swift in Sources */,
+				FA088E9F11B69DAA19392ED7339BDAE5 /* AppInfoConfig.swift in Sources */,
+				DE01BE093A38EF61E92444040D9C0518 /* DefaultConfig.swift in Sources */,
 				659C235AEFF3774C0A7D3D4609D30B20 /* CommonFunction.swift in Sources */,
 				C85A46A32E9CA98900081BB6 /* UIPLabel.swift in Sources */,
-				C1AE65DB9ED4B31850EA9669DF2B3856 /* Debouncer.swift in Sources */,
+				C1AE65DB9ED4B31850EA9669DF2B3856 /* DebouncerUtil.swift in Sources */,
 				809E5D06531E44CB4BEA000CE43D09DC /* String+Extension.swift in Sources */,
 				6B1477B51B55C8D3929D1ED5A886A39D /* toolBoxKit-dummy.m in Sources */,
 				EFF494FA798B1B6292D73024D00EA855 /* UICButton.swift in Sources */,

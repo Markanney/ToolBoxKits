@@ -1,5 +1,5 @@
 //
-//  Debouncer.swift
+//  DebouncerUtil.swift
 //  Pods
 //
 //  Created by kanney on 2025/10/13.
@@ -7,10 +7,10 @@
 
 import Foundation
 
-public class Debouncer {
+public class DebouncerUtil {
     
     /// 单例
-    public static let shared = Debouncer()
+    public static let shared = DebouncerUtil()
     
     /// 点击时间队列（可选）
     private var cacheQueue: [DispatchTime] = []

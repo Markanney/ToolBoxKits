@@ -1,5 +1,5 @@
 //
-//  CommonConfig.swift
+//  DefaultConfig.swift
 //  Pods
 //
 //  Created by kanney on 2025/10/11.

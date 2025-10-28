@@ -74,7 +74,7 @@ class CustomViewController: UIViewController {
         vi.view.backgroundColor = .white
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-            Debouncer.shared.debounce {
+            DebouncerUtil.shared.debounce {
                 self.navigationController?.pushViewController(vi, animated: false)
             }
         }
