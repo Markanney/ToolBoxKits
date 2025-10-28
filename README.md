@@ -11,6 +11,7 @@
 - 💬 常用工具函数与类型扩展
 - 🫘 防抖工具
 - 📖 UILable边距拓展
+- 💫 智能 Toast 提示
 ---
 
 ## 🧪 示例项目
@@ -120,7 +121,7 @@ let widthRatio = appWidthRatio
 let vi  = UIViewController()
 vi.view.backgroundColor = .white
 
-DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+DispatchQueueUtil.main.asyncAfter(deadline: .now() + 2.0) {
 /// 自动防抖后清除
    Debouncer.shared.debounce {
       self.navigationController?.pushViewController(vi, animated: false)
@@ -128,6 +129,32 @@ DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
 }
 ```
 
+✅ 智能 Toast 提示
+
+```swift
+
+// 基本用法 - 显示自动消失的提示
+showAutoToast("操作成功")
+
+// 自定义显示时长
+showAutoToast("加载中...", time: 5.0)
+
+// 手动控制隐藏
+showAutoToast("点击确定继续", autoHide: false)
+
+// 底部显示样式
+showAutoToast("保存成功", presentationStype: .bottom)
+
+// 带回调的Toast
+showAutoToast("操作完成") {
+    print("Toast已隐藏，执行后续操作")
+    // 跳转到下一页或其他操作
+}
+
+// 立即隐藏所有Toast
+toastHidNow()
+
+```
 ---
 
 ## 📜 License
