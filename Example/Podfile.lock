@@ -18,8 +18,12 @@ PODS:
   - LookinServer/Core (1.2.8)
   - LookinServer/Swift (1.2.8):
     - LookinServer/Core
-  - toolBoxKit (0.0.2):
+  - SwiftMessages (10.0.2):
+    - SwiftMessages/App (= 10.0.2)
+  - SwiftMessages/App (10.0.2)
+  - toolBoxKit (0.0.3):
     - KingfisherWebP
+    - SwiftMessages
 
 DEPENDENCIES:
   - LookinServer/Swift
@@ -31,6 +35,7 @@ SPEC REPOS:
     - KingfisherWebP
     - libwebp
     - LookinServer
+    - SwiftMessages
 
 EXTERNAL SOURCES:
   toolBoxKit:
@@ -41,7 +46,8 @@ SPEC CHECKSUMS:
   KingfisherWebP: 42d393b312344f6f7a43f7cef6088b9c20249b64
   libwebp: 02b23773aedb6ff1fd38cec7a77b81414c6842a8
   LookinServer: 1b2b61c6402ae29fa22182d48f5cd067b4e99e80
-  toolBoxKit: f6deb117ebb4c7882f9f14bfd7bc64e492e91a23
+  SwiftMessages: bfefe945bc05ce7cd328303d53d0d1849e29109d
+  toolBoxKit: c1b78ef85f54a0baa8446fe249b1fa2aa36d783f
 
 PODFILE CHECKSUM: ad5b9d4a29872952417edd03b3da207e717d863a
 

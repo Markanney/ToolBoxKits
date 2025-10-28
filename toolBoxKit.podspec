@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'toolBoxKit'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary = "A lightweight Swift toolbox for common extensions and utilities in iOS development."
   s.description = <<-DESC
   toolBox provides a collection of Swift extensions and helper utilities to simplify iOS development,
@@ -34,4 +34,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'KingfisherWebP'
+   s.dependency 'SwiftMessages'
 end

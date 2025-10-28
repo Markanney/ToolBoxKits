@@ -15,9 +15,9 @@ class CustomViewController: UIViewController {
         super.viewDidLoad()
         
         initView()
-        //        Task {
-        //            await initData()
-        //        }
+        Task {
+            await initData()
+        }
         
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -29,13 +29,16 @@ class CustomViewController: UIViewController {
     
     func initData() async{
         
-        let ss = URL(string: "")!
+//        let ss = URL(string: "")!
         
-        await ss.getImage()
+//        await ss.getImage()
+        
+        showAutoToast("hello")
         
     }
     
     func initView(){
+        view.backgroundColor = .white
         
         let bb = UIButton()
         bb.setTitle("click", for: .normal)

@@ -11,3 +11,5 @@ public let random_str_characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQR
 /// 默认字符串
 public let emptyInfoDefaultText = "--"
 
+/// 默认toast持续时间
+public var toastDefaultDuration: TimeInterval = 3
