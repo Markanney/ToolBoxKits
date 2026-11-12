@@ -15,20 +15,19 @@ Pod::Spec.new do |s|
   including UIKit helpers, string processing, async utilities, and layout helpers.
   DESC
 
-  s.homepage         = 'https://github.com/Markanney/ToolBoxKit'
+  s.homepage         = 'https://github.com/Markanney/ToolBoxKits'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kanney' => 'mail@workpassion.top' }
-  s.source           = { :git => 'https://github.com/Markanney/ToolBoxKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Markanney/ToolBoxKits.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
 
   s.default_subspecs = ['Core', 'LoadingHUD']
 
   s.subspec 'Core' do |core|
-    core.ios.deployment_target = '13.0'
     core.source_files = 'ToolBoxKits/Classes/**/*'
     core.exclude_files = 'ToolBoxKits/Classes/Loading/**/*'
     core.dependency 'KingfisherWebP'
