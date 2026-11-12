@@ -19,8 +19,8 @@
 要运行示例 Demo，请执行以下命令：
 
 ```bash
-git clone https://github.com/Markanney/ToolBoxKits.git
-cd Example
+git clone git@app-gitlab.devops.guchele.cn:ios/outsource/ToolBoxKits.git
+cd ToolBoxKits/Example
 pod install
 open toolBoxKit.xcworkspace
 
@@ -37,34 +37,18 @@ open toolBoxKit.xcworkspace
 ---
 
 ## 📦 安装
-1.使用 CocoaPods
-*在你的 Podfile 中添加：
+在 Podfile 中把公司私有 Specs 源放在公共源之前，再在对应 target 中声明依赖。
+
+```ruby
+source 'git@app-gitlab.devops.guchele.cn:ios/component/privatepodrepo.git'
+source 'https://cdn.cocoapods.org/'
+
 pod 'ToolBoxKits'
+```
 
-*或指定版本：
-pod 'ToolBoxKits', '~> 1.0.0'
-
-*然后执行：
-pod install
-
-2.使用 Swift Package Manager（可选）
-
-*你也可以通过 SPM 添加：
-i.在 Xcode 中打开
-File → Add Packages → 输入仓库地址：
-https://github.com/Markanney/ToolBoxKits.git
-
-ii.选择版本（如 1.0.0）并添加依赖。
+然后执行 `pod install`。
 
 ---
-
-## 发布到 CocoaPods Trunk
-
-从仓库根目录运行以下命令。校验配置会把 CocoaPods 生成的所有模拟器 target 统一设为 iOS 15，包括声明较旧部署版本的第三方依赖。
-
-```sh
-XCODE_XCCONFIG_FILE="$PWD/TrunkValidation.xcconfig" pod trunk push ToolBoxKits.podspec
-```
 
 ## 💡 使用示例
 ✅ 异步加载图片示例

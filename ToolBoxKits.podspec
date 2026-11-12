@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
   including UIKit helpers, string processing, async utilities, and layout helpers.
   DESC
 
-  s.homepage         = 'https://github.com/Markanney/ToolBoxKits'
+  s.homepage         = 'http://app-gitlab.devops.guchele.cn/ios/outsource/ToolBoxKits'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kanney' => 'thisiskache@gmail.com' }
-  s.source           = { :git => 'https://github.com/Markanney/ToolBoxKits.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@app-gitlab.devops.guchele.cn:ios/outsource/ToolBoxKits.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '15.0'
