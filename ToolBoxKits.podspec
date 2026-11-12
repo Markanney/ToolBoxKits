@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ToolBoxKits'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary = "A lightweight Swift toolbox for common extensions and utilities in iOS development."
   s.description = <<-DESC
   toolBox provides a collection of Swift extensions and helper utilities to simplify iOS development,
@@ -25,7 +25,19 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'ToolBoxKits/Classes/**/*'
+  s.default_subspecs = ['Core', 'LoadingHUD']
+
+  s.subspec 'Core' do |core|
+    core.source_files = 'ToolBoxKits/Classes/**/*'
+    core.exclude_files = 'ToolBoxKits/Classes/Loading/**/*'
+    core.dependency 'KingfisherWebP'
+    core.dependency 'SwiftMessages'
+  end
+
+  s.subspec 'LoadingHUD' do |loading|
+    loading.source_files = 'ToolBoxKits/Classes/Loading/*.swift'
+    loading.frameworks = 'UIKit'
+  end
   
   #   s.resource_bundles = {
   #     'toolBox' => ['toolBox/Assets/*']
@@ -33,6 +45,4 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'KingfisherWebP'
-   s.dependency 'SwiftMessages'
 end

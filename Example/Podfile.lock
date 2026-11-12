@@ -21,9 +21,13 @@ PODS:
   - SwiftMessages (10.0.2):
     - SwiftMessages/App (= 10.0.2)
   - SwiftMessages/App (10.0.2)
-  - ToolBoxKits (0.0.5):
+  - ToolBoxKits (0.0.6):
+    - ToolBoxKits/Core (= 0.0.6)
+    - ToolBoxKits/LoadingHUD (= 0.0.6)
+  - ToolBoxKits/Core (0.0.6):
     - KingfisherWebP
     - SwiftMessages
+  - ToolBoxKits/LoadingHUD (0.0.6)
 
 DEPENDENCIES:
   - LookinServer/Swift
@@ -47,8 +51,8 @@ SPEC CHECKSUMS:
   libwebp: 02b23773aedb6ff1fd38cec7a77b81414c6842a8
   LookinServer: 1b2b61c6402ae29fa22182d48f5cd067b4e99e80
   SwiftMessages: bfefe945bc05ce7cd328303d53d0d1849e29109d
-  ToolBoxKits: 5776ca5668077aca04a7983fd39d0d15cba409b6
+  ToolBoxKits: cc57663cc0b466a8486c30cf1f3043542c74b038
 
 PODFILE CHECKSUM: 5a23039e373dbadd3a942b6aa74ebbeedf264536
 
-COCOAPODS: 1.16.2
+COCOAPODS: 1.17.0
