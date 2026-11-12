@@ -40,17 +40,24 @@ public enum LoadingHUD {
     }
 
     @MainActor private static var displayWindow: UIWindow? {
-        let windows: [UIWindow]
-        if #available(iOS 13.0, *) {
-            let scenes = UIApplication.shared.connectedScenes.compactMap { $0 as? UIWindowScene }
-            let foregroundWindows = scenes.filter {
-                $0.activationState == .foregroundActive || $0.activationState == .foregroundInactive
-            }.flatMap(\.windows)
-            windows = foregroundWindows.isEmpty ? UIApplication.shared.windows : foregroundWindows
-        } else {
-            windows = UIApplication.shared.windows
+        let application = UIApplication.shared
+        let scenes = application.connectedScenes.compactMap { $0 as? UIWindowScene }
+        let isVisibleNormalWindow: (UIWindow) -> Bool = { !$0.isHidden && $0.windowLevel == .normal }
+
+        for state in [UIScene.ActivationState.foregroundActive, .foregroundInactive] {
+            let foregroundScenes = scenes.filter { $0.activationState == state }
+            if let keyWindow = foregroundScenes.compactMap(\.keyWindow).first(where: isVisibleNormalWindow) {
+                return keyWindow
+            }
+            if let window = foregroundScenes.lazy.flatMap(\.windows).first(where: isVisibleNormalWindow) {
+                return window
+            }
         }
-        return windows.first { $0.isKeyWindow && $0.windowLevel == .normal }
-            ?? windows.first { !$0.isHidden && $0.windowLevel == .normal }
+
+        // Support hosts that still manage their window through UIApplicationDelegate.
+        guard scenes.isEmpty, let window = application.delegate?.window ?? nil, isVisibleNormalWindow(window) else {
+            return nil
+        }
+        return window
     }
 }
