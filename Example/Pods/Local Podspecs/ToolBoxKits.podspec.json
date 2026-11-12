@@ -1,6 +1,6 @@
 {
   "name": "ToolBoxKits",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "summary": "A lightweight Swift toolbox for common extensions and utilities in iOS development.",
   "description": "toolBox provides a collection of Swift extensions and helper utilities to simplify iOS development,\nincluding UIKit helpers, string processing, async utilities, and layout helpers.",
   "homepage": "https://github.com/Markanney/ToolBoxKits",
@@ -13,16 +13,31 @@
   },
   "source": {
     "git": "https://github.com/Markanney/ToolBoxKits.git",
-    "tag": "0.0.5"
+    "tag": "0.0.8"
   },
   "platforms": {
-    "ios": "13.0"
+    "ios": "15.0"
   },
   "swift_versions": "5.0",
-  "source_files": "ToolBoxKits/Classes/**/*",
-  "dependencies": {
-    "KingfisherWebP": [],
-    "SwiftMessages": []
-  },
+  "default_subspecs": [
+    "Core",
+    "LoadingHUD"
+  ],
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "ToolBoxKits/Classes/**/*",
+      "exclude_files": "ToolBoxKits/Classes/Loading/**/*",
+      "dependencies": {
+        "KingfisherWebP": [],
+        "SwiftMessages": []
+      }
+    },
+    {
+      "name": "LoadingHUD",
+      "source_files": "ToolBoxKits/Classes/Loading/*.swift",
+      "frameworks": "UIKit"
+    }
+  ],
   "swift_version": "5.0"
 }

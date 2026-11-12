@@ -31,7 +31,7 @@ open toolBoxKit.xcworkspace
 ## ⚙️ 系统要求
 |环境|最低要求|
 |---|---|
-|iOS|13.0+|
+|iOS|15.0+|
 |Swift|5.0+|
 
 ---
@@ -57,6 +57,14 @@ https://github.com/Markanney/ToolBoxKits.git
 ii.选择版本（如 1.0.0）并添加依赖。
 
 ---
+
+## 发布到 CocoaPods Trunk
+
+从仓库根目录运行以下命令。校验配置会把 CocoaPods 生成的所有模拟器 target 统一设为 iOS 15，包括声明较旧部署版本的第三方依赖。
+
+```sh
+XCODE_XCCONFIG_FILE="$PWD/TrunkValidation.xcconfig" pod trunk push ToolBoxKits.podspec
+```
 
 ## 💡 使用示例
 ✅ 异步加载图片示例

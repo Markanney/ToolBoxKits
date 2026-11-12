@@ -1,0 +1,1 @@
+IPHONEOS_DEPLOYMENT_TARGET[sdk=iphonesimulator*] = 15.0
