@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ToolBoxKits'
-  s.version          = '0.0.9'
+  s.version          = '1.0.0'
   s.summary = "A lightweight Swift toolbox for common extensions and utilities in iOS development."
   s.description = <<-DESC
   toolBox provides a collection of Swift extensions and helper utilities to simplify iOS development,
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/Markanney/ToolBoxKits'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'kanney' => 'mail@workpassion.top' }
+  s.author           = { 'kanney' => 'thisiskache@gmail.com' }
   s.source           = { :git => 'https://github.com/Markanney/ToolBoxKits.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

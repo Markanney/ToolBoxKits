@@ -1,6 +1,6 @@
 {
   "name": "ToolBoxKits",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "summary": "A lightweight Swift toolbox for common extensions and utilities in iOS development.",
   "description": "toolBox provides a collection of Swift extensions and helper utilities to simplify iOS development,\nincluding UIKit helpers, string processing, async utilities, and layout helpers.",
   "homepage": "https://github.com/Markanney/ToolBoxKits",
@@ -9,11 +9,11 @@
     "file": "LICENSE"
   },
   "authors": {
-    "kanney": "mail@workpassion.top"
+    "kanney": "thisiskache@gmail.com"
   },
   "source": {
     "git": "https://github.com/Markanney/ToolBoxKits.git",
-    "tag": "0.0.9"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "15.0"
